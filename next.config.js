@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {}, // ✅ Ensure no invalid keys
   reactStrictMode: true,
 };
 
-export default nextConfig;
+module.exports = nextConfig;
+
+
