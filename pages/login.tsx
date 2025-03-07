@@ -148,12 +148,12 @@ export default function Login() {
           {/* Social Login Buttons */}
           <div className="space-y-4">
             <button className="w-full flex items-center justify-center bg-white border border-gray-300 rounded-lg py-2 shadow-md hover:bg-gray-100 transition-all">
-              <img src="/google-logo.png" alt="Google" className="w-6 h-6 mr-2" />
+              <img src="/images/google.jpg" alt="Google" className="w-6 h-6 mr-2" />
               Continue with Google
             </button>
 
             <button className="w-full flex items-center justify-center bg-gray-900 text-white rounded-lg py-2 shadow-md hover:bg-gray-800 transition-all">
-              <img src="/github-logo.png" alt="GitHub" className="w-6 h-6 mr-2" />
+              <img src="/images/github.jpg" alt="GitHub" className="w-6 h-6 mr-2" />
               Continue with GitHub
             </button>
           </div>

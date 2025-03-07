@@ -1,4 +1,4 @@
-"use client"; 
+"use client";
 
 import Head from "next/head";
 import { motion } from "framer-motion";
@@ -139,13 +139,28 @@ export default function Contact() {
         <h2 className="text-3xl font-bold">Stay Connected</h2>
         <p className="mt-2 text-lg">Follow us on social media and join our learning community.</p>
         <div className="mt-4 flex justify-center space-x-4">
-          <a href="#" className="bg-white text-purple-700 px-4 py-2 rounded-full shadow-md hover:bg-gray-200 transition-all">
+          <a
+            href="https://twitter.com" // Replace with your Twitter URL
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white text-purple-700 px-4 py-2 rounded-full shadow-md hover:bg-gray-200 transition-all"
+          >
             Twitter
           </a>
-          <a href="#" className="bg-white text-purple-700 px-4 py-2 rounded-full shadow-md hover:bg-gray-200 transition-all">
+          <a
+            href="https://linkedin.com" // Replace with your LinkedIn URL
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white text-purple-700 px-4 py-2 rounded-full shadow-md hover:bg-gray-200 transition-all"
+          >
             LinkedIn
           </a>
-          <a href="#" className="bg-white text-purple-700 px-4 py-2 rounded-full shadow-md hover:bg-gray-200 transition-all">
+          <a
+            href="https://youtube.com" // Replace with your YouTube URL
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white text-purple-700 px-4 py-2 rounded-full shadow-md hover:bg-gray-200 transition-all"
+          >
             YouTube
           </a>
         </div>
