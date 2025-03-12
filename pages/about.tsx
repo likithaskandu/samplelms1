@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 export default function About() {
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const toggleAnswer = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
