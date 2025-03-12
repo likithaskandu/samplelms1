@@ -8,7 +8,7 @@ import { useState } from "react";
 export default function About() {
   const [openIndex, setOpenIndex] = useState(null);
 
-  const toggleAnswer = (index) => {
+  const toggleAnswer = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
